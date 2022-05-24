@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+.top {
+    height: 70rem;
+    background-color: $color-dark-violet;
+    &__container {
+        margin: 0 20rem;
+        padding: 10rem 0;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        & h1 {
+            font-family: 'DM Serif Display', sans-serif;
+            font-size: 10rem;
+            line-height: 10rem;
+            padding-top: 7rem;
+        }
+        &-left {
+            width: 50%;
+            position: relative;
+            & hr {
+                width: 25%;
+                border-top: 1px solid #fff;
+            }
+            & p {
+                font-size: 2.2rem;
+                line-height: 4rem;
+                padding: 3rem 0;
+            }
+            & img {
+                position: absolute;
+                left: -20rem;
+            }
+        }
+        &-right {
+            width: 60rem;
+            position: relative;
+            &-image {
+                width: 100%;
+                &--waves {
+                    position: absolute;
+                    z-index: 100;
+                    left: 40rem;
+                    top: -10rem;
+                }
+            }
+            
+        }
+
+    }
+}

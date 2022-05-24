@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #2d2640; }
+
+.header__nav {
+  margin: 2rem 20rem; }
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.header__logo {
+  width: 15rem;
+  height: 2.2rem; }
+
+.header__list {
+  display: flex;
+  list-style: none;
+  width: 55rem;
+  justify-content: space-between;
+  align-items: center; }
+  .header__list-item {
+    color: #837d87;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .2rem; }
+    .header__list-item:hover {
+      color: #2d2640;
+      cursor: pointer; }
+
+.top {
+  height: 70rem;
+  background-color: #2d2640; }
+  .top__container {
+    margin: 0 20rem;
+    padding: 10rem 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between; }
+    .top__container h1 {
+      font-family: 'DM Serif Display', sans-serif;
+      font-size: 10rem;
+      line-height: 10rem;
+      padding-top: 7rem; }
+    .top__container-left {
+      width: 50%;
+      position: relative; }
+      .top__container-left hr {
+        width: 25%;
+        border-top: 1px solid #fff; }
+      .top__container-left p {
+        font-size: 2.2rem;
+        line-height: 4rem;
+        padding: 3rem 0; }
+      .top__container-left img {
+        position: absolute;
+        left: -20rem; }
+    .top__container-right {
+      width: 60rem;
+      position: relative; }
+      .top__container-right-image {
+        width: 100%; }
+        .top__container-right-image--waves {
+          position: absolute;
+          z-index: 100;
+          left: 40rem;
+          top: -10rem; }
+
+.btn {
+  width: 15rem;
+  height: 4rem;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: .2rem; }
+  .btn--white {
+    background-color: #fff;
+    color: #2b272f;
+    border: 2px solid #2b272f; }
+    .btn--white:hover {
+      background-color: #2b272f;
+      color: #fff; }
+  .btn--violet {
+    background-color: #2d2640;
+    color: #fff;
+    border: 2px solid #fff; }
+    .btn--violet:hover {
+      color: #2d2640;
+      background-color: #fff; }

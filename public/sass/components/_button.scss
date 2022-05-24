@@ -1,0 +1,28 @@
+.btn {
+    width: 15rem;
+    height: 4rem;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: .2rem;
+
+    &--white {
+        background-color: #fff;
+        color: $color-very-dark-violet;
+        border: 2px solid $color-very-dark-violet;
+        &:hover {
+            background-color: $color-very-dark-violet;
+            color: #fff;
+        }
+    }
+    &--violet {
+        background-color: $color-dark-violet;
+        color: #fff;
+        border: 2px solid #fff; 
+        &:hover {
+            color: $color-dark-violet;
+            background-color: #fff;
+        }
+    }
+}
