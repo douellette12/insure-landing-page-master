@@ -1,7 +1,6 @@
 .btn {
     width: 15rem;
     height: 4rem;
-    border: none;
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
@@ -19,10 +18,11 @@
     &--violet {
         background-color: $color-dark-violet;
         color: #fff;
-        border: 2px solid #fff; 
+        border: 2px solid #fff;
         &:hover {
             color: $color-dark-violet;
             background-color: #fff;
         }
     }
+
 }
